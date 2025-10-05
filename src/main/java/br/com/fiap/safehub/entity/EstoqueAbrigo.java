@@ -3,7 +3,6 @@ package br.com.fiap.safehub.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-
 @Getter
 @Setter
 @NoArgsConstructor

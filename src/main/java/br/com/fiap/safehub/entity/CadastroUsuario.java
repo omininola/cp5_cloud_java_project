@@ -1,6 +1,5 @@
 package br.com.fiap.safehub.entity;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -30,7 +29,5 @@ public class CadastroUsuario {
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "fk_id_abrigo")
     private CadastroAbrigo chaveAbrigo;
-
-
 
 }
